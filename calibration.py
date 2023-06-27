@@ -33,4 +33,4 @@ while True:
     window.read(timeout=0)
     window.key_dict["sensor0"].update(value=f"\nD11/A0:\n{a0}", background_color=color(d0))
     window.key_dict["sensor1"].update(value=f"\nD12/A1:\n{a1}", background_color=color(d1))
-    window.key_dict["sensor2"].update(value=f"\nD13/A3:\n{a2}", background_color=color(d2))
+    window.key_dict["sensor2"].update(value=f"\nD13/A2:\n{a2}", background_color=color(d2))
